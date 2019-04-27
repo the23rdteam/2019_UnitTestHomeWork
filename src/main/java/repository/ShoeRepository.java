@@ -7,4 +7,7 @@ import java.util.Collection;
 
 public class ShoeRepository implements ShoeRepositoryInterface{
         private Collection<Shoe> shoes = new ArrayList<Shoe>();
+
+
+
 }
