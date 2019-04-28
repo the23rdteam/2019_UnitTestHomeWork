@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="928b46d0-f87a-4b26-b3cb-fefd33d8fe2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ShoeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ShoeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/APICall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Shoe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/ShoeRepositoryInterface.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/WhatIsTestDouble.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,10 +61,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
+                <state relative-caret-position="-38">
                   <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -83,8 +78,20 @@
             <entry file="file://$PROJECT_DIR$/Readme.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="76">
-                    <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+                  <first_editor relative-caret-position="306">
+                    <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/WhatIsTestDouble.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="396">
+                    <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -143,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/main/java/repository/ShoeRepositoryInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/ShoeRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/WhatIsTestDouble.md" />
       </list>
     </option>
   </component>
@@ -250,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556475270030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556476555327" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../unit-test-2week" />
@@ -313,12 +321,12 @@
       <updated>1556394821500</updated>
       <workItem from="1556394825164" duration="13205000" />
       <workItem from="1556410254279" duration="6780000" />
-      <workItem from="1556468717096" duration="1098000" />
+      <workItem from="1556468717096" duration="2536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21083000" />
+    <option name="totallyTimeSpent" value="22521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +341,7 @@
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28081232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28081232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +358,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3280116" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32732317" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32732317" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.33817127" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -403,16 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -435,12 +433,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="-38">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#723#729#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WhatIsTestDouble.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="396">
+            <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
