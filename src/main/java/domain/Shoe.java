@@ -10,8 +10,8 @@ public class Shoe {
     private String title;
     private String link;
     private String image;
-    private int lprice;
-    private int hprice;
+    private Integer lprice;
+    private Integer hprice;
     private String mallName;
     private Integer productType;
 }
