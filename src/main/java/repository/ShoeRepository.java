@@ -12,7 +12,6 @@ public class ShoeRepository implements ShoeRepositoryInterface{
         public void save(Shoe shoe){
                 shoes.add(shoe);
                 return ;
-
         }
 
         public Shoe findByLowPrice(int lowPrice){
