@@ -40,8 +40,7 @@ public class ShoeRepositoryTest {
 
     @Test
     public void findByLowPrice() {
-        List<Shoe> mockShoes = mock(List.class);
-
+        List<Shoe> mockShoes = new ArrayList<Shoe>();
         Shoe mockShoe = mock(Shoe.class);
 
         when(mockShoe.getLprice()).thenReturn(new Integer("2000"));
