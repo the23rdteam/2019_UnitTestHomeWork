@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="928b46d0-f87a-4b26-b3cb-fefd33d8fe2d" name="Default Changelist" comment="" />
+    <list default="true" id="928b46d0-f87a-4b26-b3cb-fefd33d8fe2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +69,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="351">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1181#1187#0" expanded="true" />
+                <element signature="e#1177#1183#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -311,20 +313,11 @@
       <workItem from="1556550471552" duration="122000" />
       <workItem from="1556694692716" duration="611000" />
       <workItem from="1556781188870" duration="6925000" />
-      <workItem from="1556788468067" duration="5848000" />
+      <workItem from="1556788468067" duration="6230000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 46m 13s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 46m 42s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 51m 53s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 53m 19s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
@@ -346,9 +339,18 @@
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 07m 16s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 12m 15s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 13m 56s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 15m 20s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36587000" />
+    <option name="totallyTimeSpent" value="36969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,6 +399,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java</url>
+          <line>41</line>
+          <properties class="repository.ShoeRepositoryTest" method="findByLowPrice">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Readme.md">
@@ -500,11 +516,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state relative-caret-position="351">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1181#1187#0" expanded="true" />
+            <element signature="e#1177#1183#0" expanded="true" />
           </folding>
         </state>
       </provider>
