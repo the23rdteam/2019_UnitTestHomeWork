@@ -41,8 +41,6 @@ public class ShoeRepositoryTest {
 
     @Test
     public void findByLowPrice() {
-        @InjectMocks
-        ShoeRepository shoeRepository = new ShoeRepository();
         List<Shoe> shoes = mock(List.class);
         Shoe mockShoe = mock(Shoe.class);
 
