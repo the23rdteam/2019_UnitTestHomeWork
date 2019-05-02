@@ -41,6 +41,8 @@ public class ShoeRepositoryTest {
     @Test
     public void findByLowPrice() {
         Shoe shoe = mock(Shoe.class);
+
+        when(shoe.getLprice()).thenReturn(2000);
     }
 
     @Test
