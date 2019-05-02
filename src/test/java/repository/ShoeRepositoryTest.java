@@ -40,15 +40,16 @@ public class ShoeRepositoryTest {
 
     @Test
     public void findByLowPrice() {
-        List<Shoe> mockShoes = new ArrayList<Shoe>();
+        List<Shoe> shoes = new ArrayList<Shoe>();
+
         Shoe mockShoe = mock(Shoe.class);
 
         when(mockShoe.getLprice()).thenReturn(new Integer("2000"));
         assertTrue(mockShoe != null);
 
-        mockShoes.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")));
-        assertThat(mockShoes.get(0).getLprice(), is(new Integer("15000")));
-        verify(mockShoes).get(0).getLprice();
+        shoes.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")));
+        assertThat(shoes.get(0).getLprice(), is(new Integer("15000")));
+        verify(shoes).get(0).getLprice();
     }
 
     @Test
