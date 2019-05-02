@@ -49,9 +49,9 @@ public class ShoeRepositoryTest {
         assertTrue(mockShoe != null);
 
         spyShoeList.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")));
-        assertThat(spy(spyShoeList.get(0)).getLprice(), is(new Integer("15000")));
-
-        verify(getShoe, times(1)).getLprice();
+        Shoe spyShoe = spy(spyShoeList.get(0));
+        assertThat(spyShoe.getLprice(), is(new Integer("15000")));
+        verify(spyShoe, times(1)).getLprice();
     }
 
     @Test
