@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="928b46d0-f87a-4b26-b3cb-fefd33d8fe2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="216">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -312,7 +313,7 @@
       <workItem from="1556550471552" duration="122000" />
       <workItem from="1556694692716" duration="611000" />
       <workItem from="1556781188870" duration="6925000" />
-      <workItem from="1556788468067" duration="2308000" />
+      <workItem from="1556788468067" duration="3367000" />
     </task>
     <servers />
   </component>
@@ -332,9 +333,12 @@
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 41m 20s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 28m 45s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33047000" />
+    <option name="totallyTimeSpent" value="34106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +350,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37248322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -485,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
