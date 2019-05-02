@@ -1,6 +1,5 @@
 package repository;
 
-import com.sun.prism.shader.Solid_ImagePattern_Loader;
 import domain.Shoe;
 
 import java.util.ArrayList;

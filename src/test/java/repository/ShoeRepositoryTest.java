@@ -3,14 +3,14 @@ package repository;
 import domain.Shoe;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -47,7 +47,7 @@ public class ShoeRepositoryTest {
         when(mockShoe.getLprice()).thenReturn(new Integer("2000"));
         assertTrue(mockShoe != null);
 
-        shoes.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")))
+        shoes.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")));
         assertThat(shoes.get(0).getLprice(), is(new Integer("15000")));
         verify(shoes).get(0).getLprice();
     }
