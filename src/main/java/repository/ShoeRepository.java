@@ -15,7 +15,9 @@ public class ShoeRepository implements ShoeRepositoryInterface{
         }
 
         public Shoe findByLowPrice(int lowPrice){
+                for (Shoe shoe: shoes) {
 
+                }
         }
 
         public Shoe findByHighPrice(int highPrice){
