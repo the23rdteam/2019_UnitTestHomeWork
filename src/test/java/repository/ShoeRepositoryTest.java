@@ -3,6 +3,7 @@ package repository;
 import domain.Shoe;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ public class ShoeRepositoryTest {
 
     @Test
     public void findByLowPrice() {
+        @InjectMocks
         ShoeRepository shoeRepository = new ShoeRepository();
         List<Shoe> shoes = mock(List.class);
         Shoe shoe = mock(Shoe.class);
