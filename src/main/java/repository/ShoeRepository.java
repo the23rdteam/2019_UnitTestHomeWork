@@ -17,7 +17,7 @@ public class ShoeRepository implements ShoeRepositoryInterface{
         public Shoe findByLowPrice(int lowPrice){
                 for (Shoe shoe: shoes) {
                         if (shoe.getLprice().equals(lowPrice)) {
-
+                                return shoe;
                         }
                 }
         }
