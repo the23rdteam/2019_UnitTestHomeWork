@@ -21,7 +21,7 @@ public class ShoeRepository implements ShoeRepositoryInterface{
                                 return shoe;
                         } else {
                                 System.out.println("원하는 LowPrice " + lowPrice + "를 가지는 신발을 찾지못했습니다.");
-
+                                return null;
                         }
                 }
         }
