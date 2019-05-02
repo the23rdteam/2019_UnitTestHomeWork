@@ -41,6 +41,7 @@ public class ShoeRepositoryTest {
     @Test
     public void findByLowPrice() {
         List<Shoe> shoes = new ArrayList<Shoe>();
+        List<Shoe> spyShoeList = spy(shoes);
 
         Shoe mockShoe = mock(Shoe.class);
 
