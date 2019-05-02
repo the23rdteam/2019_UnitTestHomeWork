@@ -49,8 +49,7 @@ public class ShoeRepositoryTest {
 
         shoes.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")))
         assertThat(shoes.get(0).getLprice(), is(new Integer("15000")));
-
-
+        verify(shoes).get(0).getLprice();
     }
 
     @Test
