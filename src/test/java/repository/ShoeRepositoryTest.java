@@ -51,7 +51,7 @@ public class ShoeRepositoryTest {
         spyShoeList.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")));
         assertThat(spyShoeList.get(0).getLprice(), is(new Integer("15000")));
 
-
+        Shoe gettedShoe = spyShoeList.get(0);
         verify(spyShoeList, times(1)).get(0);
     }
 
