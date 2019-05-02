@@ -9,8 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -48,7 +47,7 @@ public class ShoeRepositoryTest {
         assertTrue(mockShoe != null);
 
         shoes.add(new Shoe("축구화","link","img", new Integer("15000"),new Integer("100000"),"다음", new Integer("3")));
-        assertTrue(shoes.get(0) != null);
+        assertNotNull(shoes.get(0));
 //        assertThat(shoes.get(0).getLprice(), is(new Integer("15000")));
 //        verify(shoes).get(0).getLprice();
     }
