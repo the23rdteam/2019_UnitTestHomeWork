@@ -256,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ShoeRepositoryTest.findByLowPrice">
     <configuration name="APICall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api.APICall" />
       <module name="UnitTestHomeWork" />
@@ -270,8 +270,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShoeRepositoryTest.findByLowPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImHoJeong" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.ShoeRepositoryTest" />
+      <option name="METHOD_NAME" value="findByLowPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoeRepositoryTest.findByLowPrice" />
         <item itemvalue="Application.APICall" />
       </list>
     </recent_temporary>

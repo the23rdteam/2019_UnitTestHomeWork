@@ -40,10 +40,13 @@ public class ShoeRepositoryTest {
 
     @Test
     public void findByLowPrice() {
+        List<Shoe> shoes = mock(List.class);
         Shoe shoe = mock(Shoe.class);
 
         when(shoe.getLprice()).thenReturn(2000);
         assertTrue(shoe != null);
+
+
     }
 
     @Test
