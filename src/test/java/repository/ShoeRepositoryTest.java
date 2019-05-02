@@ -43,6 +43,7 @@ public class ShoeRepositoryTest {
         Shoe shoe = mock(Shoe.class);
 
         when(shoe.getLprice()).thenReturn(2000);
+        assertTrue(shoe != null);
     }
 
     @Test
