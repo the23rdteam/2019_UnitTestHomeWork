@@ -67,7 +67,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="123">
               <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -310,17 +310,11 @@
       <workItem from="1556550471552" duration="122000" />
       <workItem from="1556694692716" duration="611000" />
       <workItem from="1556781188870" duration="6925000" />
-      <workItem from="1556788468067" duration="3762000" />
+      <workItem from="1556788468067" duration="4898000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 24m 03s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 32m 07s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 34m 59s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
@@ -333,9 +327,27 @@
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 28m 45s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 37m 26s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 40m 26s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 46m 13s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 46m 42s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 51m 53s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 53m 19s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34501000" />
+    <option name="totallyTimeSpent" value="35637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,7 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="123">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
