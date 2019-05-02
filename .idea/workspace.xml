@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="928b46d0-f87a-4b26-b3cb-fefd33d8fe2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="928b46d0-f87a-4b26-b3cb-fefd33d8fe2d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="294">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1177#1183#0" expanded="true" />
@@ -313,23 +311,11 @@
       <workItem from="1556550471552" duration="122000" />
       <workItem from="1556694692716" duration="611000" />
       <workItem from="1556781188870" duration="6925000" />
-      <workItem from="1556788468067" duration="6230000" />
+      <workItem from="1556788468067" duration="6537000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 53m 19s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 56m 27s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 02m 14s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 02m 44s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 03m 53s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
@@ -348,9 +334,21 @@
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 15m 20s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 18m 36s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 18m 54s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 20m 00s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 22m 35s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36969000" />
+    <option name="totallyTimeSpent" value="37276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,7 +361,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37248322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -399,20 +396,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java</url>
-          <line>41</line>
-          <properties class="repository.ShoeRepositoryTest" method="findByLowPrice">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Readme.md">
@@ -516,8 +499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="294">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1177#1183#0" expanded="true" />
