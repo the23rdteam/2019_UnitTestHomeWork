@@ -70,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -312,7 +312,7 @@
       <workItem from="1556550471552" duration="122000" />
       <workItem from="1556694692716" duration="611000" />
       <workItem from="1556781188870" duration="6925000" />
-      <workItem from="1556788468067" duration="1465000" />
+      <workItem from="1556788468067" duration="2308000" />
     </task>
     <servers />
   </component>
@@ -326,9 +326,15 @@
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 34m 59s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 40m 56s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 41m 20s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32204000" />
+    <option name="totallyTimeSpent" value="33047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,8 +346,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37248322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32624114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,7 +365,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3280116" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2539007" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2539007" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.33617023" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -481,7 +486,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
