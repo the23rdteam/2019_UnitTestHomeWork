@@ -26,12 +26,12 @@ public class ShoeRepository implements ShoeRepositoryInterface{
         }
 
         public Shoe findByHighPrice(int highPrice){
-
+                return null;
         }
 
 
         public Shoe findByTitle(String title){
-
+                return null;
         }
 
 
