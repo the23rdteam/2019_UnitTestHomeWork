@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="313">
+              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1181#1187#0" expanded="true" />
@@ -313,23 +313,11 @@
       <workItem from="1556550471552" duration="122000" />
       <workItem from="1556694692716" duration="611000" />
       <workItem from="1556781188870" duration="6925000" />
-      <workItem from="1556788468067" duration="5160000" />
+      <workItem from="1556788468067" duration="5546000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 40m 56s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 18h 41m 20s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 28m 45s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 37m 26s.xml">
-      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 40m 26s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
@@ -348,9 +336,21 @@
     <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 20h 56m 27s.xml">
       <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 02m 14s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 02m 44s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 03m 53s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoeRepositoryTest_findByLowPrice - 2019.05.02 at 21h 04m 13s.xml">
+      <configuration name="ShoeRepositoryTest.findByLowPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35899000" />
+    <option name="totallyTimeSpent" value="36285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,6 +363,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37248322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -501,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/ShoeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="313">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1181#1187#0" expanded="true" />
