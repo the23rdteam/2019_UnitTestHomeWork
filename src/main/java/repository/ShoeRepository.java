@@ -19,11 +19,11 @@ public class ShoeRepository implements ShoeRepositoryInterface{
                 for (Shoe shoe: shoes) {
                         if (shoe.getLprice().equals(lowPrice)) {
                                 return shoe;
-                        } else {
-                                System.out.println("원하는 LowPrice " + lowPrice + "를 가지는 신발을 찾지못했습니다.");
-                                return null;
                         }
                 }
+
+                System.out.println("원하는 LowPrice " + lowPrice + "를 가지는 신발을 찾지못했습니다.");
+                return null;
         }
 
         public Shoe findByHighPrice(int highPrice){
