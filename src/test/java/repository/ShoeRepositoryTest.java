@@ -49,6 +49,7 @@ public class ShoeRepositoryTest {
     @Test
     public void findByTitle() {
 
+        List<Shoe> shoes = mock(List.class);
         Shoe shoe = mock(Shoe.class);
 
         when(shoe.getTitle()).thenReturn("코르테즈");
@@ -56,7 +57,7 @@ public class ShoeRepositoryTest {
 
         shoes.add(new Shoe("코르테즈","link","img", new Integer("20000"),new Integer("1000000"),"네이버", new Integer("3")));
 
-
+        assertThat(shoe.getTitle(),is("코르테즈"));
 
     }
 

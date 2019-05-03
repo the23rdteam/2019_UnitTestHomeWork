@@ -2,6 +2,11 @@ package repository;
 
 import domain.Shoe;
 
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.runners.MockitoJUnitRunner;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -36,6 +41,9 @@ public class ShoeRepository implements ShoeRepositoryInterface{
                         }
 
                 }
+
+                System.out.println("찾고자 하는 " + title + "의 신발을 찾지 못하였습니다.");
+                return null;
 
 
         }
