@@ -48,6 +48,12 @@ public class ShoeRepositoryTest {
 
     @Test
     public void findByTitle() {
+
+        Shoe shoe = mock(Shoe.class);
+
+
+
+
     }
 
 
