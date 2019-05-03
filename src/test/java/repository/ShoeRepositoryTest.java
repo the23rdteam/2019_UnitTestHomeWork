@@ -3,6 +3,7 @@ package repository;
 import domain.Shoe;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.ArrayList;
@@ -49,20 +50,22 @@ public class ShoeRepositoryTest {
     @Test
     public void findByTitle() {
 
-        List<Shoe> shoes = mock(List.class);
+        List<Shoe> shoes = new ArrayList<Shoe>();
+        List<Shoe> spyshoelist = spy(shoes);
         Shoe shoe = mock(Shoe.class);
         Shoe mockShoe = mock(Shoe.class);
 
         when(shoe.getTitle()).thenReturn("코르테즈");
         assertTrue(shoe != null);
         when(shoe.getTitle()).thenReturn("코르테즈");
-        assertTrue(mockshoe != null);
+        assertTrue(mockShoe != null);
 
+        spyshoelist.add(new Shoe("코르테즈","link","img", new Integer("20000"),new Integer("1000000"),"네이버", new Integer("3")));
 
-        shoes.add(new Shoe("코르테즈","link","img", new Integer("20000"),new Integer("1000000"),"네이버", new Integer("3")));
+        Shoe spyShoe = spy(spyshoelist.get(0));
 
-        assertThat(shoe.getTitle(),is("코르테즈"));
-        verify(shoes).getTitle();
+        assertThat(spyShoe.getTitle(),is("코르테즈"));
+        verify(spyShoe).getTitle();
     }
 
 

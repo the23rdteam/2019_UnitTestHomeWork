@@ -2,11 +2,6 @@ package repository;
 
 import domain.Shoe;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.runners.MockitoJUnitRunner;
-
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -21,17 +16,19 @@ public class ShoeRepository implements ShoeRepositoryInterface{
 
         public Shoe findByLowPrice(int lowPrice){
 
+                return null;
+
         }
 
         public Shoe findByHighPrice(int highPrice){
-
+                return null;
         }
 
 
         public Shoe findByTitle(String title){
 
                 for (Shoe shoe : shoes) {
-                        if(shoe.getTitle().equlas(title)){
+                        if(shoe.getTitle().equals(title)){
                                         return shoe;
                         }else {
 
