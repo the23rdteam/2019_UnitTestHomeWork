@@ -28,6 +28,9 @@ public class ShoeRepository implements ShoeRepositoryInterface{
                 for (Shoe shoe : shoes) {
                         if(shoe.getTitle().equlas(title)){
                                         return shoe;
+                        }else {
+
+                                System.out.println("찾고자 하는 " + title + "의 신발을 찾지 못하였습니다.");
                         }
 
                 }
