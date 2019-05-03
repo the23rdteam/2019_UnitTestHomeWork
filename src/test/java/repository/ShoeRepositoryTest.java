@@ -51,6 +51,7 @@ public class ShoeRepositoryTest {
 
         List<Shoe> shoes = mock(List.class);
         Shoe shoe = mock(Shoe.class);
+        Shoe mockShoe = mock(Shoe.class);
 
         when(shoe.getTitle()).thenReturn("코르테즈");
         assertTrue(shoe != null);
