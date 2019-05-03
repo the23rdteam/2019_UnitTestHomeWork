@@ -51,6 +51,8 @@ public class ShoeRepositoryTest {
 
         Shoe shoe = mock(Shoe.class);
 
+        when(shoe.getTitle()).thenReturn("코르테즈");
+
 
 
 
