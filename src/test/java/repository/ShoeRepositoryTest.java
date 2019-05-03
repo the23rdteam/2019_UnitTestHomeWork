@@ -44,6 +44,13 @@ public class ShoeRepositoryTest {
 
     @Test
     public void findByHighPrice() {
+        List<Shoe> shoes = new ArrayList<Shoe>();
+        List<Shoe> spyShoeList = spy(shoes);
+
+        Shoe mockShoe = mock(Shoe.class);
+
+        when(mockShoe.getHprice()).thenReturn(new Integer("10000"));
+        assertTrue(mockShoe != null);
     }
 
     @Test
