@@ -55,11 +55,14 @@ public class ShoeRepositoryTest {
 
         when(shoe.getTitle()).thenReturn("코르테즈");
         assertTrue(shoe != null);
+        when(shoe.getTitle()).thenReturn("코르테즈");
+        assertTrue(mockshoe != null);
+
 
         shoes.add(new Shoe("코르테즈","link","img", new Integer("20000"),new Integer("1000000"),"네이버", new Integer("3")));
 
         assertThat(shoe.getTitle(),is("코르테즈"));
-
+        verify(shoes).getTitle();
     }
 
 
