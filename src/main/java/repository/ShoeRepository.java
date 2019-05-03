@@ -27,7 +27,7 @@ public class ShoeRepository implements ShoeRepositoryInterface{
 
                 for (Shoe shoe : shoes) {
                         if(shoe.getTitle().equlas(title)){
-
+                                        return shoe;
                         }
 
                 }
