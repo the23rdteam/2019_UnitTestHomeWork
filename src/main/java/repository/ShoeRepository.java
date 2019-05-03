@@ -25,6 +25,14 @@ public class ShoeRepository implements ShoeRepositoryInterface{
 
         public Shoe findByTitle(String title){
 
+                for (Shoe shoe : shoes) {
+                        if(shoe.getTitle().equlas(title)){
+
+                        }
+
+                }
+
+
         }
 
 
