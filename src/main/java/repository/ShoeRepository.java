@@ -31,6 +31,8 @@ public class ShoeRepository implements ShoeRepositoryInterface{
                         }else {
 
                                 System.out.println("찾고자 하는 " + title + "의 신발을 찾지 못하였습니다.");
+
+                                return null;
                         }
 
                 }
