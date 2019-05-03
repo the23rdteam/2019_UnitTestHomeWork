@@ -10,5 +10,8 @@
         <module name="UnitTestHomeWork" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ImHoJeong" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
